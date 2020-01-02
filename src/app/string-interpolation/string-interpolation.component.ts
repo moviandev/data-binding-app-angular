@@ -6,10 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./string-interpolation.component.scss']
 })
 export class StringInterpolationComponent implements OnInit {
+  firstName = 'Matheus';
+  person = {
+    firstName: 'Maria',
+    lastName: 'A'
+  };
 
-  constructor() { }
+  constructor() {}
 
-  ngOnInit() {
-  }
-
+  ngOnInit() {}
 }
